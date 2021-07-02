@@ -35,3 +35,8 @@ if(isset($_SESSION['username'])) {
 <div class="row">
 	<div class="bg"></div>
 </div>
+
+<?php
+print "php version is " . PHP_VERSION . "\n";
+print "A change is a coming!\n";
+?>
